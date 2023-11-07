@@ -1,3 +1,14 @@
+
+## Import Sql file .sql
+```bash
+mysql -p -u user_name data_base < db_backup.sql
+```
+
+## Import Sql file .sql (mysql sail)
+```bash
+sail mysql -p -u user_name data_base < db_backup.sql
+```
+
 ## Import SQL file sql.gz 
 
 ```bash
