@@ -25,3 +25,7 @@ gzip -d myfile.sql.gz
 ```bash
 sail mysql -p -u user_name database_name < myfile.sql
 ```
+
+## problem import sql
+
+if table is LOCK when opening table. you can running ``UNLOCK TABLES`` on sql editor 
